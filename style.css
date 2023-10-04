@@ -1,0 +1,117 @@
+/*Google font if needed*/
+*{
+    padding: 0;
+    margin: 0;
+    /*background-color: black;*/
+}
+
+header{
+    background-color: rgb(2, 2, 85);
+}
+
+li, a, button{
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    position: relative;
+}
+
+/*.nav-links li a{
+    
+}*/
+
+.nav-links li a:hover{
+    color: red;
+    transition: all 0.3s ease 0s;
+    font-size: 16px;
+}
+
+.drop-down{
+    display: none;
+    background-color: rgb(2, 2, 85);
+
+}
+
+.nav-links li:hover .drop-down{
+    display: block;
+    position: absolute;
+    right: 0;
+    /*left: 0;
+    top: 100%;*/
+    padding: 5px 0;
+    
+}
+
+.drop-down li{
+    padding: 5px 20px;
+    display: block;
+}
+
+.portal li{
+    display: inline-block;
+    position: relative;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: red;
+}
+
+.portal:hover .drop-down{
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color:  rgba(2, 2, 85, 1);
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgba(40, 175, 28, 1);
+    width: 100px;
+    padding: 4.5px 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    transition: all 0.7s ease 0s;
+    background-color: rgba(40, 175, 28, 0.7);
+}
+
+button a:hover{
+    color: red;
+}
+
+.login-as{
+    display: none;
+}
+
+.portal ul li:hover .login-as{
+    display: block;
+    position: absolute;
+    right: 120px;
+    top: 10px;
+    /*width: 200px;*/
+    background-color:  rgba(2, 2, 85, 1);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.fas{
+    float: left;
+    font-size: 13px;
+    margin-right: 7px;
+}
