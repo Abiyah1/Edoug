@@ -117,3 +117,8 @@ button a:hover{
 }
 
 /*Slide show styling starts here*/
+.slideshow{
+    border-style: solid;
+    border-color: blue;
+    
+}
