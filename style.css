@@ -125,5 +125,5 @@ button a:hover{
     position: relative;
     top: 10px;
     right: 20px;
-    
+    display: grid;
 }
